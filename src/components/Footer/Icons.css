@@ -1,0 +1,31 @@
+.icons-container{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.bi{
+    color: rgba(0,0,0,.55);
+    padding: 0 1rem;
+    font-style: normal;
+}
+
+.bi:hover{
+    color: #495057;
+}
+
+.address{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+    color: rgba(0,0,0,.55);
+    margin-bottom: 0;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0  1rem 1rem;
+}
