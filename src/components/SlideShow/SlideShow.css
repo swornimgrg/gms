@@ -11,7 +11,11 @@
   object-position: top left;
   object-fit: cover;
 }
+
 h3{
   text-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
 
+.carousel-item{
+  border-bottom: 0px ;
 }

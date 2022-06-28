@@ -4,7 +4,7 @@ import "./SlideShow.css";
 
 function SlideShow() {
   return (
-    <Carousel>
+    <Carousel pause="hover">
       <Carousel.Item bsPrefix="carousel-item">
         <img className="banner" src="/images/banner.jpg" alt="First slide" />
         <Carousel.Caption>
@@ -12,7 +12,7 @@ function SlideShow() {
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item bsPrefix="carousel-item">
         <img
           className="other-slides"
           src="/images/guard1.jpg"
@@ -24,7 +24,7 @@ function SlideShow() {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item bsPrefix="carousel-item">
         <img
           className="other-slides"
           src="/images/guard2.jpg"
