@@ -1,4 +1,7 @@
 .wrapper{
+    padding: 3rem;
+}
+.text-body{
     display: flex;
     align-content: flex-start;
 }
@@ -6,14 +9,15 @@
 h2{
     font-family: "Times New Roman", Times, serif;
     color: #336d57;
-    margin: 1rem;
+    margin:  1rem;
     padding: 1rem;
 }
 
 .about-us{
     padding: 1rem;
     margin: 1rem;
-    font-size: large;
+    font-size: larger;
+    font-weight: 400;
     color:rgba(0,0,0,.55);
     word-wrap: break-word;
     text-align: start;
@@ -21,12 +25,12 @@ h2{
 
 .security-images{
     margin: 1rem;
-    padding: 1rem;
+    padding: 0.5rem;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-@media (max-width: 776px) {
-    .wrapper{
+@media (max-width: 800px) {
+    .text-body{
       flex-direction: column;
     }
   }

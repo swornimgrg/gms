@@ -4,9 +4,9 @@ import "./Aboutus.css";
 
 function Homepage() {
   return (
-    <Container>
+    <Container className="wrapper">
       <h2>ABOUT US </h2>
-      <div className="wrapper">
+      <div className="text-body">
         <div>
           <p className="about-us">
             Gurkha Management Services Ltd was founded in...to provide
@@ -33,7 +33,7 @@ function Homepage() {
         </div>
         <div>
           <img
-            src="/images/security-bw.jpg"
+            src="/images/flex-point-security.jpg"
             width="400"
             height="400"
             alt="security guard bw"

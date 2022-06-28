@@ -6,7 +6,7 @@ import Icons from "./Icons";
 
 function Footer() {
   return (
-    <Container>
+    <div className="footer">
       <Icons />
       <ul>
         <li>
@@ -33,7 +33,7 @@ function Footer() {
       </ul>
       <hr />
       <p className="copyright">Copyright &copy; All rights reserved.</p>
-    </Container>
+    </div>
   );
 }
 
