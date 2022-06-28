@@ -1,15 +1,19 @@
 import React from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./NavigationBar.css";
+
+const menuItems = [
+  { title: "Home", url: "/" },
+  { title: "Our Values", url: "/our-values/" },
+  { title: "Services", url: "/services/" },
+  { title: "About Us", url: "/about-us/" },
+  { title: "Contact Us", url: "/contact-us/" },
+];
 
 function NavigationBar() {
   return (
-    <Navbar
-      collapseOnSelect
-      expand="lg"
-      defaultActiveKey="/home"
-      bsPrefix="navbar"
-    >
+    <Navbar collapseOnSelect expand="lg" bsPrefix="navbar">
       <Container>
         <Navbar.Brand as={Link} to="/">
           <img
@@ -23,22 +27,17 @@ function NavigationBar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>
-          <Nav>
-            <Nav.Link href="#home" bsPrefix="nav-link">
-              Home
-            </Nav.Link>
-            <Nav.Link bsPrefix="nav-link" eventKey={1} href="#our-values">
-              Our Values
-            </Nav.Link>
-            <Nav.Link bsPrefix="nav-link" eventKey={2} href="#services">
-              Services
-            </Nav.Link>
-            <Nav.Link bsPrefix="nav-link" eventKey={3} href="#about-us">
-              About Us
-            </Nav.Link>
-            <Nav.Link bsPrefix="nav-link" eventKey={4} href="#contact-us">
-              Contact Us
-            </Nav.Link>
+          <Nav defaultActiveKey={1}>
+            {menuItems.map((item, index) => (
+              <Nav.Link
+                eventKey={index + 1}
+                bsPrefix="nav-link"
+                as={Link}
+                to={item.url}
+              >
+                {item.title}
+              </Nav.Link>
+            ))}
           </Nav>
         </Navbar.Collapse>
       </Container>
