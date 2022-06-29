@@ -14,7 +14,7 @@ const menuItems = [
 function NavigationBar() {
   return (
     <Navbar collapseOnSelect expand="lg" bsPrefix="navbar">
-      <Container className="nav-wrapper">
+      <Container>
         <Navbar.Brand as={Link} to="/">
           <img
             src="/images/logo.png"

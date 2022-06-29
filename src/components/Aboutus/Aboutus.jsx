@@ -8,7 +8,7 @@ function Homepage() {
       <h2>ABOUT US </h2>
       <div className="text-body">
         <div>
-          <p className="about-us">
+          <p className="paragraph">
             Gurkha Management Services Ltd was founded in...to provide
             high-quality services to businesses and homes alike. Combining the
             reliability, experience and skill of Gurkha soldiers and then
@@ -36,7 +36,7 @@ function Homepage() {
             src="/images/flex-point-security.jpg"
             width="400"
             height="400"
-            alt="security guard bw"
+            alt="flex point security"
             className="security-images"
           ></img>
         </div>
