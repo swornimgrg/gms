@@ -1,5 +1,4 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./Footer.css";
 import Icons from "./Icons";
@@ -9,23 +8,23 @@ function Footer() {
     <div className="footer">
       <Icons />
       <ul>
-        <li>
+        <li key="home">
           <Link to="/" className="link">
             Home
           </Link>
         </li>
 
-        <li>
+        <li key="about">
           <Link to="/about-us/" className="link">
             About
           </Link>
         </li>
-        <li>
+        <li key="tos">
           <Link to="/tos/" className="link">
             Terms of Service
           </Link>
         </li>
-        <li>
+        <li key="privacy">
           <Link to="/privacy-policy/" className="link">
             Privacy Policy
           </Link>

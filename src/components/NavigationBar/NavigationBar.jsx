@@ -14,7 +14,7 @@ const menuItems = [
 function NavigationBar() {
   return (
     <Navbar collapseOnSelect expand="lg" bsPrefix="navbar">
-      <Container>
+      <Container className="nav-wrapper">
         <Navbar.Brand as={Link} to="/">
           <img
             src="/images/logo.png"
@@ -30,6 +30,7 @@ function NavigationBar() {
           <Nav defaultActiveKey={1}>
             {menuItems.map((item, index) => (
               <Nav.Link
+                key={index}
                 eventKey={index + 1}
                 bsPrefix="nav-link"
                 as={Link}
