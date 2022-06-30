@@ -1,5 +1,5 @@
 import React from "react";
-import { Carousel, Container, Row, Col } from "react-bootstrap";
+import { Carousel } from "react-bootstrap";
 import "./SlideShow.css";
 
 function SlideShow() {
