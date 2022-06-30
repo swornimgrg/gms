@@ -7,24 +7,24 @@ function Footer() {
   return (
     <div className="footer">
       <Icons />
-      <ul>
-        <li key="home">
+      <ul className="footer-menu">
+        <li className="menu-item" key="home">
           <Link to="/" className="link">
             Home
           </Link>
         </li>
 
-        <li key="about">
+        <li className="menu-item" key="about">
           <Link to="/about-us/" className="link">
             About
           </Link>
         </li>
-        <li key="tos">
+        <li className="menu-item" key="tos">
           <Link to="/tos/" className="link">
             Terms of Service
           </Link>
         </li>
-        <li key="privacy">
+        <li className="menu-item" key="privacy">
           <Link to="/privacy-policy/" className="link">
             Privacy Policy
           </Link>

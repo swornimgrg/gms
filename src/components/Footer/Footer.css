@@ -2,20 +2,20 @@
 background-color: #fbfbfb;
 }
 
-ul {
+.footer-menu {
     list-style:none;
     display: flex;
     justify-content: center;
     margin-top: 1rem !important;
     
   }
-  ul li{
+  .footer-menu .menu-item{
     display:inline-block; 
     padding: 0 30px; 
     position:relative;
 
   }
-  ul li:not(:last-child)::after{
+  .footer-menu .menu-item:not(:last-child)::after{
     content:""; 
     border:1px solid #e2e2e2;
     border-width: 2px 2px 0 0;
@@ -26,7 +26,7 @@ ul {
   }
 
   @media (max-width: 768px) {
-    .ul {
+    .footer-menu {
       flex-direction: column;
     }
   }
