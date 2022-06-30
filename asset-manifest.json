@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gms/static/css/main.03365cfe.css",
+    "main.js": "/gms/static/js/main.e2fd9c78.js",
+    "index.html": "/gms/index.html",
+    "main.03365cfe.css.map": "/gms/static/css/main.03365cfe.css.map",
+    "main.e2fd9c78.js.map": "/gms/static/js/main.e2fd9c78.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03365cfe.css",
+    "static/js/main.e2fd9c78.js"
+  ]
+}
