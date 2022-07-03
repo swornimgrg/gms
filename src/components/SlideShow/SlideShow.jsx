@@ -15,7 +15,7 @@ function SlideShow() {
       <Carousel.Item bsPrefix="carousel-item">
         <img
           className="other-slides"
-          src="/images/guard1.jpg"
+          src="images/guard1.jpg"
           alt="Second slide"
         />
 
@@ -27,7 +27,7 @@ function SlideShow() {
       <Carousel.Item bsPrefix="carousel-item">
         <img
           className="other-slides"
-          src="/images/guard2.jpg"
+          src="images/guard2.jpg"
           alt="Third slide"
         />
 
