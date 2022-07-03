@@ -17,7 +17,7 @@ function NavigationBar() {
       <Container>
         <Navbar.Brand as={Link} to="/">
           <img
-            src="/images/logo.png"
+            src="./images/logo.png"
             height="90px"
             width="120px"
             className="d-inline-block align-top"
