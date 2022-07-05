@@ -31,7 +31,7 @@ function Homepage() {
             family environment, in which we support and guide each individual.
           </p>
         </div>
-        <div>
+        <div className="image-wrapper">
           <img
             src={process.env.PUBLIC_URL + `/images/flex-point-security.jpg`}
             width="400"
