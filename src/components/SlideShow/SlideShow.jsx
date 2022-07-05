@@ -6,7 +6,11 @@ function SlideShow() {
   return (
     <Carousel pause="hover">
       <Carousel.Item bsPrefix="carousel-item">
-        <img className="banner" src="/images/banner.jpg" alt="First slide" />
+        <img
+          className="banner"
+          src={process.env.PUBLIC_URL + `/images/banner.jpg`}
+          alt="First slide"
+        />
         <Carousel.Caption>
           <h3>Reliable Security Partner</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -15,7 +19,7 @@ function SlideShow() {
       <Carousel.Item bsPrefix="carousel-item">
         <img
           className="other-slides"
-          src="images/guard1.jpg"
+          src={process.env.PUBLIC_URL + `/images/guard1.jpg`}
           alt="Second slide"
         />
 
@@ -27,7 +31,7 @@ function SlideShow() {
       <Carousel.Item bsPrefix="carousel-item">
         <img
           className="other-slides"
-          src="images/guard2.jpg"
+          src={process.env.PUBLIC_URL + `/images/guard2.jpg`}
           alt="Third slide"
         />
 

@@ -8,7 +8,11 @@ function OurValues() {
       <h2>OUR VALUES</h2>
       <div className="text-body">
         <div className="image-wrapper">
-          <img src="/images/values.jpg" className="value-img" alt="values" />
+          <img
+            src={process.env.PUBLIC_URL + `/images/values.jpg`}
+            className="value-img"
+            alt="values"
+          />
         </div>
         <div>
           <p className="paragraph">

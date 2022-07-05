@@ -33,7 +33,7 @@ function Homepage() {
         </div>
         <div>
           <img
-            src="/images/flex-point-security.jpg"
+            src={process.env.PUBLIC_URL + `/images/flex-point-security.jpg`}
             width="400"
             height="400"
             alt="flex point security"

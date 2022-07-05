@@ -9,7 +9,11 @@ function Services() {
       <Row>
         <Col md>
           <div className="service-wrapper">
-            <img src="/images/cctv.jpg" className="service-image" alt="cctv" />
+            <img
+              src={process.env.PUBLIC_URL + `/images/cctv.jpg`}
+              className="service-image"
+              alt="cctv"
+            />
             <h4 className="services-header">Security Services</h4>
             <ul className="lists">
               <li>Mobile Patrol</li>
@@ -23,9 +27,9 @@ function Services() {
         <Col md>
           <div className="service-wrapper">
             <img
-              src="/images/gema-saputera.jpg"
+              src={process.env.PUBLIC_URL + `/images/gema-saputera.jpg`}
               className="service-image"
-              alt="cctv"
+              alt="gema-saputera"
             />
             <h4 className="services-header">Training</h4>
             <ul className="lists">
@@ -40,7 +44,7 @@ function Services() {
         <Col md>
           <div className="service-wrapper">
             <img
-              src="/images/ryoji-iwata.jpg"
+              src={process.env.PUBLIC_URL + `/images/ryoji-iwata.jpg`}
               className="service-image"
               alt="cctv"
             />
