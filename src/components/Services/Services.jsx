@@ -16,11 +16,13 @@ function Services() {
             />
             <h4 className="services-header">Security Services</h4>
             <ul className="lists">
-              <li>Mobile Patrol</li>
-              <li>Manned Security Guard</li>
-              <li>Key Holding Response</li>
+              <li>Security door supervisor</li>
+              <li>Manned Guarding</li>
+              <li>Event Security</li>
+              <li>Receptionist</li>
+              <li>Concierge</li>
+              <li>Key Holding</li>
               <li>Enforcement Agent</li>
-              <li>CCTV Installation and Maintenance</li>
             </ul>
           </div>
         </Col>
@@ -31,12 +33,13 @@ function Services() {
               className="service-image"
               alt="gema-saputera"
             />
-            <h4 className="services-header">Training</h4>
+            <h4 className="services-header">Training Services</h4>
             <ul className="lists">
-              <li>SIA Door Supervisor Training</li>
+              <li>CCTV Training</li>
               <li>First Aid Course</li>
               <li>Fire Marshal Training</li>
               <li>Health & Safety Course</li>
+              <li>SIA Door Supervisor Training</li>
               <li>Food Safety & Hygiene Course</li>
             </ul>
           </div>
@@ -50,8 +53,9 @@ function Services() {
             />
             <h4 className="services-header">Cleaning Services</h4>
             <ul className="lists">
-              <li>Commercial building</li>
-              <li>Residential properties</li>
+              <li>Commercial Cleaning Services</li>
+              <li>Residential Cleaning Services</li>
+              <li>General cleaning services</li>
             </ul>
           </div>
         </Col>
