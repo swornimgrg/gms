@@ -1,12 +1,12 @@
 import React from "react";
-import Services from "../Services/Services";
+import Enquiryform from "../Enquiryform/Enquiryform";
+
 import SlideShow from "../SlideShow/SlideShow";
 
 function Homepage() {
   return (
     <div>
       <SlideShow />
-      <Services />
     </div>
   );
 }
