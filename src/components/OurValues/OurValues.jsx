@@ -4,7 +4,7 @@ import "./OurValues.css";
 
 function OurValues() {
   return (
-    <Container className="wrapper">
+    <Container>
       <h2>OUR VALUES</h2>
       <div className="text-body">
         <div className="image-wrapper">

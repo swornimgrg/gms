@@ -19,16 +19,6 @@ function Footer() {
             About
           </Link>
         </li>
-        <li className="menu-item" key="tos">
-          <Link to="/tos/" className="link">
-            Terms of Service
-          </Link>
-        </li>
-        <li className="menu-item" key="privacy">
-          <Link to="/privacy-policy/" className="link">
-            Privacy Policy
-          </Link>
-        </li>
       </ul>
       <hr />
       <p className="copyright">Copyright &copy; All rights reserved.</p>
