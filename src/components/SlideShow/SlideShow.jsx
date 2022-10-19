@@ -13,7 +13,6 @@ function SlideShow() {
         />
         <Carousel.Caption>
           <h3>Reliable Security Partner</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item bsPrefix="carousel-item">
@@ -25,7 +24,6 @@ function SlideShow() {
 
         <Carousel.Caption>
           <h3>Liscensed and Fully Insured</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item bsPrefix="carousel-item">
@@ -37,9 +35,6 @@ function SlideShow() {
 
         <Carousel.Caption>
           <h3>Specialize Security Training</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

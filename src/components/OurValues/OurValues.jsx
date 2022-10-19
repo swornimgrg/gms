@@ -16,8 +16,8 @@ function OurValues() {
         </div>
         <div>
           <p className="paragraph">
-            Integrity, Helpfulness and Avaiablity are the are the foundation on
-            which we build trust with our customers, our colleagues, and the
+            Integrity, Helpfulness and Availability are the are the foundation
+            on which we build trust with our customers, our colleagues, and the
             surrounding community.
           </p>
           <hr />
