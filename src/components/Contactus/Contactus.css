@@ -26,6 +26,12 @@
 }
 
 @media screen and (max-width:992px){
+    div.form-wrapper{
+        margin: 2rem;
+    }
+} 
+
+@media screen and (max-width:992px){
     div.contactus-body{
         flex-direction: column-reverse;
     }
@@ -36,3 +42,4 @@
         display: none;
     }
 } 
+

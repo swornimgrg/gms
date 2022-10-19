@@ -21,7 +21,7 @@ function Enquiryform() {
       )
       .then(
         (result) => {
-          if (result.text == "OK") {
+          if (result.text === "OK") {
             setShowSuccess(true);
           }
           setShowError(true);

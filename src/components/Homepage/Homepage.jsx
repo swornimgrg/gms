@@ -1,5 +1,4 @@
 import React from "react";
-import Enquiryform from "../Enquiryform/Enquiryform";
 import Aboutus from "../Aboutus/Aboutus";
 
 import SlideShow from "../SlideShow/SlideShow";
