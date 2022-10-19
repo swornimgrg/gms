@@ -18,6 +18,7 @@ function Services() {
             <ul className="lists">
               <li>Security door supervisor</li>
               <li>Manned Guarding</li>
+              <li>Mobile Patrol</li>
               <li>Event Security</li>
               <li>Receptionist</li>
               <li>Concierge</li>

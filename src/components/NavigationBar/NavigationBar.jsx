@@ -5,9 +5,7 @@ import "./NavigationBar.css";
 
 const menuItems = [
   { title: "Home", url: "/" },
-  { title: "Our Values", url: "/our-values/" },
   { title: "Services", url: "/services/" },
-  { title: "About Us", url: "/about-us/" },
   { title: "Contact Us", url: "/contact-us/" },
 ];
 

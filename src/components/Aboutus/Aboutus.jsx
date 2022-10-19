@@ -2,40 +2,32 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import "./Aboutus.css";
 
-function Homepage() {
+function Aboutus() {
   return (
     <Container className="wrapper">
       <h2>ABOUT US </h2>
       <div className="text-body">
         <div>
           <p className="paragraph">
-            Gurkha Management Services Ltd was founded in...to provide
-            high-quality services to businesses and homes alike. Combining the
-            reliability, experience and skill of Gurkha soldiers and then
-            transferring it into the commercial world, we provide a unique and
-            specialised service.
-            <br />
-            <br />
-            Since our inception, building strong client relationships has
-            remained our main objective. Through consistent lines of
-            communication and an open-minded attitude about client objectives,
-            we have managed to exceed client expectations and develop
-            long-lasting relationships. Consequently, we have benefitted from
-            significant synergies in the past and will continue to do so in the
-            future.
-            <br />
-            <br />
-            We believe that one of the keys to our success is the strong
-            relationship we have built within all areas of our team, from
-            managing levels down to officers. This has enabled us to build a
-            family environment, in which we support and guide each individual.
+            We are a young company driven to provide bespoke and high-quality
+            services to smoothly run your business. We take pride in achieving
+            any needs you may have while being cost-efficient. Since our
+            inception, building strong client relationships has remained our
+            primary objective. Through consistent communication and an
+            open-minded attitude about client objectives, we have managed to
+            exceed client expectations and develop long-lasting relationships.
+            Consequently, we have benefitted from significant synergies in the
+            past and will continue to do so in the future. Our strong team
+            relationship within all areas of our team has been the main key to
+            our success. This has enabled us to create a family environment
+            where we support and guide each individual.
           </p>
         </div>
         <div className="image-wrapper">
           <img
             src={process.env.PUBLIC_URL + `/images/flex-point-security.jpg`}
             width="400"
-            height="400"
+            height="260"
             alt="flex point security"
             className="security-images"
           ></img>
@@ -45,4 +37,4 @@ function Homepage() {
   );
 }
 
-export default Homepage;
+export default Aboutus;
