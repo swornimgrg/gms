@@ -16,17 +16,21 @@
 
 .address{
   display: flex;
+  font-size: large;
   padding-top: 1rem;
   justify-content: center;
   text-align: center;
   color: rgba(0,0,0,.55);
   margin-bottom: 0;
+  line-height: 1.6;
 }
 
 .contact{
-    display: flex;
+    display: flex;  
+    font-size: large;  
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    line-height: 1.6;
     padding: 0  1rem 1rem;
 }

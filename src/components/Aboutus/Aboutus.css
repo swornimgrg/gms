@@ -18,7 +18,12 @@ h2{
     font-size: larger;
     font-weight: 400;
     color:rgba(0,0,0,.55);
-    word-wrap: break-word;
+    word-break: break-word;
+    white-space: pre-line;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
 }
 
 .security-images{
