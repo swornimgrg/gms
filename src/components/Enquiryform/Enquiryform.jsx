@@ -20,14 +20,15 @@ function Enquiryform() {
         `0RR3-wuLdDBJof2Sw`
       )
       .then(
-        (result) => {
+        function (result) {
           if (result.text === "OK") {
             setShowSuccess(true);
+            return;
           }
           setShowError(true);
           console.log(result.text);
         },
-        (error) => {
+        function (error) {
           console.log(error.text);
         }
       );
@@ -42,7 +43,7 @@ function Enquiryform() {
       <Alert show={showError} variant="success">
         <Alert.Heading>Error submitting!</Alert.Heading>
       </Alert>
-      <Form ref={form} onSubmit={sendEmail}>
+      <Form ref={form} onSubmit={sendEmail} validated>
         <Form.Group className="mb-3" controlId="formName">
           <Form.Label bsPrefix="form-label">FULL NAME</Form.Label>
           <Form.Control name="name" />
